@@ -50,6 +50,18 @@ const Createpage = () => {
               </div>
             </div>
            <Link to= '/'> <em><FaArrowLeft/>Back</em></Link>
+             <div className="lcca">
+             <div className='learn'>
+                <Link to='/learn'> <img src={learn} alt="" /></Link>
+              </div>
+              <div className='create'>
+                <Link to='/create'><img src={creates} alt="" /></Link>
+              </div>
+              <div className='connect'>
+                <Link to='/connect'> <img src={connect} alt="" /></Link>
+          </div>
+          </div>
+           
         </div>
     )
 }

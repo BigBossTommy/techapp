@@ -33,13 +33,24 @@
         }
     }
     .overlay {
+        img {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+        }
         height: 100vh;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(0,
+        0,
+        0,
+        0.8);
         .connectlinks {
             .hback {
                 font-size: 1rem;
                 position: absolute;
                 right: 3%;
+                top: 2%;
                 color: white;
             }
         }
@@ -224,6 +235,57 @@
         position: absolute;
         top: 2%;
         right: 2%;
+    }
+    .lcca {
+        position: fixed;
+        left: 95%;
+        top: 40%;
+        background-color: transparent;
+        .learn {
+            width: 50px;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+            img {
+                width: 26px;
+                position: relative;
+                left: 22%;
+                top: 25%;
+            }
+        }
+        .create {
+            width: 50px;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+            img {
+                width: 26px;
+                position: relative;
+                left: 22%;
+                top: 25%;
+            }
+        }
+        .connect {
+            width: 50px;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+            img {
+                width: 26px;
+                position: relative;
+                left: 22%;
+                top: 25%;
+            }
+        }
     }
 }
 

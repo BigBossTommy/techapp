@@ -20,7 +20,7 @@ const Connectpage = () => {
 
         <div className="overlay">
        
-          <img src="{logo} " alt="" />
+          <Link to = '/'><img src={logo} alt="" /></Link>
           <div className="connectlinks">
             <Link className="hback" to='/'> <FaArrowLeft /> Back</Link >
           </div>
